@@ -14,9 +14,9 @@ main{
 }
 
 .header_title{
-    font-family: "Montserrat, Montserrat-Bold";
+    font-family: Montserrat, Montserrat-Bold;
   
-    font-size: 2em;
+    font-size: 1.7em;
     letter-spacing: 0px;
   
     font-weight: 700;
@@ -42,6 +42,7 @@ main{
 }
 .course_category{
     color: #3ba0a9;
+    font-weight: normal;
     font-size: 15px;
 }
 .course_description{
@@ -73,7 +74,7 @@ main{
 .learning_time{
     display: inline-block;
 }
-
+ 
 
 
 
