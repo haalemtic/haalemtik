@@ -1,0 +1,118 @@
+
+main{
+    margin-top: 2.5em;
+}
+
+.courses_section{
+  
+   
+    padding-top: 8em;
+    padding-left: 8em;
+    padding-right: 8em;
+    
+    
+}
+
+.header_title{
+    font-family: "Montserrat, Montserrat-Bold";
+  
+    font-size: 2em;
+    letter-spacing: 0px;
+  
+    font-weight: 700;
+    display: block;
+    color: rgba(0,0,0,.92);
+    
+}
+
+.course_link{
+    text-decoration: none;
+    color: black;
+}
+
+.course_link:hover{
+    text-decoration: none;
+    color: black;
+}
+.course_infos {
+   
+    border-radius: 5px;
+
+  
+}
+.course_category{
+    color: #3ba0a9;
+    font-size: 15px;
+}
+.course_description{
+    color: #787878;
+    display: inline-block;
+}
+.course_title{
+    color: #141414;
+    font-size: 16px;
+    font-weight: bold;
+}
+.course_item {
+    
+  
+    
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 1px 1px 2px black;
+}
+
+.course_item:hover {
+    cursor:pointer;
+    box-shadow: 1px 1px 10px black;
+}
+
+
+
+
+.learning_time{
+    display: inline-block;
+}
+
+
+
+
+
+
+@media screen and (max-width: 555px)
+{
+.learning_time{
+    display: none;
+}
+
+.courses_section{
+  
+   
+    padding: 1em;
+    
+    
+}
+}
+
+
+
+@media screen and (max-width: 576px)
+{
+    .course_description{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1050px)
+{
+
+
+.courses_section{
+  
+   
+    padding: 1em;
+    
+    
+}
+}
