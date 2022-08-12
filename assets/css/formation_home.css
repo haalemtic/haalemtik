@@ -23,19 +23,6 @@ margin-left: 3em;
 margin-right: 3em;
 }
 
-
-
-
-@media screen and (max-width: 1050px)
-{
-
-
-    .introducing_section .row{
-        margin-left: 0em;
-        margin-right: 0em;
-        }
-}
-
 .advantages_section {
     margin-top: 1em;
 }
@@ -73,3 +60,16 @@ margin-right: 3em;
     background-color:  rgba(78, 214, 255, 0.3);
     border-radius: 5px;
 }
+
+
+
+@media screen and (max-width: 1050px)
+{
+
+
+    .introducing_section .row{
+        margin-left: 0em;
+        margin-right: 0em;
+        }
+}
+

@@ -137,6 +137,8 @@ main{
 }
 
 
+
+
 .show{
     display: block;
     transition: display 1s ease-in-out;
@@ -158,9 +160,6 @@ main{
     
 }
 
-.mobile_submenu{
-    display: none;
-}
 }
 
 
