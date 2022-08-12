@@ -21,6 +21,10 @@ main{
     font-size: 13px;
     display: none;
 }
+.mobile_submenu{
+    display: none;
+}
+
 .header_title{
     font-family: Montserrat, Montserrat-Bold;
   
@@ -129,10 +133,14 @@ main{
     background-color: rgba(41, 71, 80, 0.3);
    
 }
+
+
 .show{
     display: block;
 }
-
+.show_mobile_submenu{
+    display: block;
+}
 @media screen and (max-width: 555px)
 {
 .learning_time{
@@ -145,6 +153,10 @@ main{
     padding: 1em;
     
     
+}
+
+.mobile_submenu{
+    display: none;
 }
 }
 
@@ -159,9 +171,16 @@ main{
 
 @media screen and (max-width: 991px)
 {
+
+
    .formation_submenu{
     display: none;
    }
+
+
+  
+
+ 
 }
 @media screen and (max-width: 1050px)
 {
@@ -174,4 +193,6 @@ main{
     
     
 }
+
+
 }
