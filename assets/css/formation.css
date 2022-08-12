@@ -20,9 +20,11 @@ main{
     background-color: white;
     font-size: 13px;
     display: none;
+
 }
 .mobile_submenu{
     display: none;
+    
 }
 
 .header_title{
@@ -108,7 +110,7 @@ main{
 
 .form1 ,.form2{
     padding: 10px;
-    cursor: pointer;
+    
    
 }
 .form2 p, .form1 p{
@@ -137,6 +139,7 @@ main{
 
 .show{
     display: block;
+    transition: display 1s ease-in-out;
 }
 .show_mobile_submenu{
     display: block;
@@ -175,6 +178,7 @@ main{
 
    .formation_submenu{
     display: none;
+ 
    }
 
 
