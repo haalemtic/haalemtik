@@ -1,0 +1,19 @@
+.introducing_section{
+
+    background-color: #3ba0a9;
+    padding-top:70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: white;
+    
+}
+
+.introducing_section h1{
+    font-weight: bold;
+}
+
+.see_formations{
+    color: #47b2e4;
+    font-weight: bold;
+    background-color: white;
+}

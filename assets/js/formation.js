@@ -1,8 +1,20 @@
-const link = document.getElementsByClassName('.formation_link');
-link.addEventListener('click', e => {
-
-    document.getElementsByClassName(".formation_submenu").style.display="none";
-});
 
 
-document.getElementsByClassName("body").style.color="blue";
+
+
+
+
+
+
+function checkSubmenuState() {
+
+ document.getElementById("formation_submenu").classList.toggle("show");
+ document.getElementById("chevron").classList.toggle("bi-caret-up-fill");
+}
+
+
+
+
+
+
+

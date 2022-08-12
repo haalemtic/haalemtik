@@ -12,13 +12,14 @@ main{
     
     
 }
+
 .formation_submenu > .row{
     padding: 10px;
 }
 .formation_submenu{
     background-color: white;
     font-size: 13px;
-    display: block;
+    display: none;
 }
 .header_title{
     font-family: Montserrat, Montserrat-Bold;
@@ -103,6 +104,17 @@ main{
 
 .form1 ,.form2{
     padding: 10px;
+    cursor: pointer;
+   
+}
+.form2 p, .form1 p{
+    color: black;
+
+}
+.formation_submenu h5{
+
+    color: black;
+    font-weight: bold;
 }
 .form1 i , .form2 i{
     width: 2rem;
@@ -117,7 +129,9 @@ main{
     background-color: rgba(41, 71, 80, 0.3);
    
 }
-
+.show{
+    display: block;
+}
 
 @media screen and (max-width: 555px)
 {
