@@ -1,9 +1,8 @@
 .introducing_section{
 
     background-color: #3ba0a9;
-    padding-top:70px;
-    padding-left: 70px;
-    padding-right: 70px;
+
+    
     color: white;
     
 }
@@ -16,4 +15,23 @@
     color: #47b2e4;
     font-weight: bold;
     background-color: white;
+}
+
+
+.introducing_section .row{
+margin-left: 3em;
+margin-right: 3em;
+}
+
+
+
+
+@media screen and (max-width: 1050px)
+{
+
+
+    .introducing_section .row{
+        margin-left: 0em;
+        margin-right: 0em;
+        }
 }
