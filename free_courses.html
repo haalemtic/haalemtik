@@ -34,7 +34,6 @@
 </head>
 
 <body>
-
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center">
 
@@ -44,28 +43,50 @@
         <nav id="navbar" class="navbar">
             <ul>
 
-                <li onclick="checkSubmenuState()" id="formation_link"><a class="nav-link  active scrollto"
-                        href="#">Formations <i class="bi-caret-down-fill " id="chevron"></i></a></li>
-                <li  id="mobile_submenu1" class="mobile_submenu"><a class="nav-link scrollto " href="#" >Formations
-                        diplômantes</a></li>
-                <li  id="mobile_submenu2" class="mobile_submenu"><a class="nav-link scrollto " href="free_courses.html" >Cours à accès
-                        libre</a></li>
-
-                <li><a class="nav-link scrollto" href="index.html">Notre Startup</a></li>
-
-                <li><a class="nav-link scrollto" href="#"></a></li>
-                <li><a class="nav-link scrollto" href="#"></a></li>
-                <li><a class="nav-link scrollto" href="#"></a></li>
-                <li><a class="nav-link scrollto" href="#"></a></li>
+                <li onclick="checkSubmenuState()" id="formation_link" class="hide_for_search_bar"><a
+                        class="nav-link  active scrollto " href="#">Formations <i class="bi-caret-down-fill "
+                            id="chevron"></i></a></li>
 
 
+
+
+                <li>
+                    <div class="hide_search_bar" id="searchBar">
+                        <input id="searchQueryInput" type="text" name="searchQueryInput"
+                            placeholder="Rechercher(cours,parcours,mots-clés...)" value="" />
+                        <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                            <i class="bi-search"></i>
+                        </button>
+                    </div>
+                </li>
+
+
+                <li id="mobile_submenu1" class="mobile_submenu"><a class="nav-link scrollto " href="#">Formations à domicile personnelle</a></li>
+                <li id="mobile_submenu2" class="mobile_submenu"><a class="nav-link scrollto "
+                        href="free_courses.html">Cours en ligne libre</a></li>
+
+                <li id="startut_link" class="hide_for_search_bar"><a class="nav-link scrollto"
+                        href="index.html">Notre Startup</a></li>
+
+                <li><a class="nav-link scrollto " href="#"></a></li>
+                <li><a class="nav-link scrollto " href="#"></a></li>
+                <li><a class="nav-link scrollto " href="#"></a></li>
+                <li><a class="nav-link scrollto " href="#"></a></li>
+                <li><a class="nav-link scrollto " href="#"></a></li>
+                <li><a class="nav-link scrollto " href="#"></a></li>
+
+
+
                 <li><a class="nav-link scrollto" href="#"></a></li>
-                <li><a class="nav-link scrollto" href="#"> <i class="bi-search" style="font-size: 2rem;"></i></a>
+                <li onclick="displaySearchBar()" id="search_btn" class="search_btn"><a class="nav-link scrollto"
+                        href="#"> <i class="bi-search" style="font-size: 2rem;"></i></a>
                 </li>
 
 
 
-                <li><a class="getstarted scrollto" href="#">Se Connecter</a></li>
+
+
+                <li><a class="getstarted scrollto" href="login.html">Se Connecter</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -108,7 +129,7 @@
                             <i class="bi-file-earmark-text-fill" style="font-size: 1.2rem;"></i>
                         </div>
                         <div class="col-10">
-                            <h5>Cours en ligne  libre</h5>
+                            <h5>Cours en ligne libre</h5>
                             <p>Développer vos connaissances avec plus de 500 cours régulièrement mis à jour.</p>
                         </div>
                     </div>
