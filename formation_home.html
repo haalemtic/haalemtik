@@ -46,25 +46,48 @@
             <nav id="navbar" class="navbar">
                 <ul>
 
-                    <li onclick="checkSubmenuState()" id="formation_link"><a class="nav-link  active scrollto"
-                            href="#">Formations <i class="bi-caret-down-fill " id="chevron"></i></a></li>
+                    <li onclick="checkSubmenuState()" id="formation_link" class="hide_for_search_bar"><a
+                            class="nav-link  active scrollto " href="#">Formations <i class="bi-caret-down-fill "
+                                id="chevron"></i></a></li>
+
+
+
+
+                    <li>
+                        <div class="hide_search_bar" id="searchBar">
+                            <input id="searchQueryInput" type="text" name="searchQueryInput"
+                                placeholder="Rechercher(cours,parcours,mots-clés...)" value="" />
+                            <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                                <i class="bi-search"></i>
+                            </button>
+                        </div>
+                    </li>
+
+
                     <li id="mobile_submenu1" class="mobile_submenu"><a class="nav-link scrollto " href="#">Formations
                             diplômantes</a></li>
                     <li id="mobile_submenu2" class="mobile_submenu"><a class="nav-link scrollto "
                             href="free_courses.html">Cours à accès
                             libre</a></li>
 
-                    <li><a class="nav-link scrollto" href="index.html">Notre Startup</a></li>
+                    <li id="startut_link" class="hide_for_search_bar"><a class="nav-link scrollto"
+                            href="index.html">Notre Startup</a></li>
+
+                    <li><a class="nav-link scrollto " href="#"></a></li>
+                    <li><a class="nav-link scrollto " href="#"></a></li>
+                    <li><a class="nav-link scrollto " href="#"></a></li>
+                    <li><a class="nav-link scrollto " href="#"></a></li>
+                    <li><a class="nav-link scrollto " href="#"></a></li>
+                    <li><a class="nav-link scrollto " href="#"></a></li>
+
+
 
                     <li><a class="nav-link scrollto" href="#"></a></li>
-                    <li><a class="nav-link scrollto" href="#"></a></li>
-                    <li><a class="nav-link scrollto" href="#"></a></li>
-                    <li><a class="nav-link scrollto" href="#"></a></li>
-
-
-                    <li><a class="nav-link scrollto" href="#"></a></li>
-                    <li><a class="nav-link scrollto" href="#"> <i class="bi-search" style="font-size: 2rem;"></i></a>
+                    <li onclick="displaySearchBar()" id="search_btn" class="search_btn"><a class="nav-link scrollto"
+                            href="#"> <i class="bi-search" style="font-size: 2rem;"></i></a>
                     </li>
+
+
 
 
 
@@ -221,7 +244,8 @@
 
                     </p>
 
-                    <button type="button" class="btn  see_formations"><i class="bi-chat-square-dots-fill"></i> &nbsp; NOUS
+                    <button type="button" class="btn  see_formations"><i class="bi-chat-square-dots-fill"></i> &nbsp;
+                        NOUS
                         ECRIRE</button>
                 </div>
             </div>

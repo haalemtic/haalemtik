@@ -6,6 +6,17 @@
 
 
 
+function bodyAction(scrollState){
+
+        document.getElementById("searchBar").style.display="none";
+        document.getElementById("search_btn").style.display="block";
+        document.getElementById("formation_link").style.display="block";
+        document.getElementById("startut_link").style.display="block";
+      
+}
+
+
+
 function checkSubmenuState() {
 
     document.getElementById("formation_submenu").classList.toggle("show");
@@ -19,6 +30,15 @@ function checkSubmenuState() {
 }
 
 
+function displaySearchBar(){
+   if(window.innerWidth>990){
+
+    document.getElementById("search_btn").classList.toggle("hide_search_btn");
+    document.getElementById("formation_link").classList.toggle("hide_menu");
+    document.getElementById("startut_link").classList.toggle("hide_menu");
+    document.getElementById("searchBar").classList.toggle("display_search_bar");
+   }
+}
 
 
 
