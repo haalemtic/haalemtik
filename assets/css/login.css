@@ -9,6 +9,9 @@
     font-weight: bold;
     background-color: #47b2e4;
 }
+.show_password{
+  display: block;
+}
 
 .no_account{
     font-size: 15px;

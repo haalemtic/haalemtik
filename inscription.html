@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Connexion-HaalemStudy</title>
+    <title>Inscription-HaalemStudy</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -57,7 +57,7 @@
 
                 </div>
                 <div class="col-12 col-md-6">
-                    <h1>Connexion</h1>
+                    <h1>Inscription</h1>
                     <br>
 
                     <div class="row">
@@ -89,28 +89,40 @@
 
                     <div>----OU---- </div>
                     <br>
-                    <h5>Connectez-vous avec votre addresse e-mail</h5>
+                    <h5>Inscrivez-vous avec votre addresse e-mail</h5>
+                    <div class="email_field">
+                        <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Prénom"
+                            value="" />
 
+                    </div>
+                    <br>
+                    <div class="email_field">
+                        <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Nom" value="" />
+
+                    </div>
+                    <br>
                     <div class="email_field">
                         <input id="searchQueryInput" type="email" name="searchQueryInput" placeholder="Addresse email"
                             value="" />
 
                     </div>
+                    <div style="font-size: 12px; text-align:start;"><span>Vous recevrez votre mot de passe sur cette
+                            adresse e-mail.</span></div>
                     <br>
-                    <div id="password_field" class="email_field "  style="display:none;">
-                        <input id="searchQueryInput" type="password" name="searchQueryInput" placeholder="Mot de passe"
-                            value="" />
 
+                    <div style="font-size: 13px; text-align:justify;">
+                   <input type="checkbox" >     <span >J'ai lu et j'accepte les <a href="#">Conditions Générales d'Utilisation </a> et la
+                            <a href="#">Politique de Protection des Données Personnelles</a>.</span>
                     </div>
 
-                    <br>
-                    <div id="password_text" style="text-align: start;font-size: 13px; display: none;"><a href="#">Mot de
-                            passe oublié ?</a></div>
-                    <br>
-                    <button onclick="showPasswordField()" type="button" class="btn send_btn">CONTINUER</button>
+                    <div style="font-size: 13px; text-align:justify;">
+                        <input type="checkbox" > <span>Je consens à recevoir des communications sur les cours, les parcours et les solutions de financement proposés par OpenClassrooms</span>
+                    </div>
+<br>
+                    <button type="button" class="btn send_btn">S'INSCRIRE</button>
                     <br> <br>
-                    <div class="no_account">Vous n'avez pas encore de compte ? <a href="inscription.html">Inscrivez-vous
-                            gratuitement</a>
+                    <div class="no_account">Vous avez déjà un compte ? <a href="login.html">Connectez-vous
+                        </a>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 space"></div>
@@ -139,7 +151,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/formation.js"></script>
 
 </body>
 
