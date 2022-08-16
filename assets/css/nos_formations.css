@@ -1,0 +1,9 @@
+.path{
+    font-size: 20px
+}
+
+h2 span{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
