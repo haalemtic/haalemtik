@@ -1,9 +1,172 @@
-.path{
+.path {
     font-size: 20px
 }
 
-h2 span{
-    background-color: blue;
-    padding: 10px;
+.path h6 {
+    font-weight: bold;
+}
+
+.path span {
+    font-weight: normal;
+}
+
+h2 span {
+    background-color: #47b2e4;
+    padding: 1px;
     color: white;
+}
+
+.our_formations_section {
+    background-color: #3ba0a96d;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.title h2{
+    font-size: 40px;
+}
+
+.qualities_section{
+    background-color: #47b2e4;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.f_list{
+    border-right: 1px solid grey;
+}
+.formation_list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+border-bottom: 1px solid grey;
+}
+.formation_list button{
+    border-radius: 20px;
+
+    padding: 7px;
+    font-size: 15px;
+    margin: 15px;
+    
+}
+.btn1{
+    border-color: green;
+    color:green;
+}
+.btn1:hover{
+    background-color: rgba(0, 128, 0, 0.21);
+
+}
+.btn2{
+    border-color:rgb(93, 93, 255);
+    color:rgb(93, 93, 255);
+}
+
+.btn2:hover{
+    background-color:rgba(93, 93, 255, 0.21);
+  
+}
+.btn3{
+    border-color:rgb(4, 4, 18);
+    color:rgb(4, 4, 18);
+}
+
+.btn3:hover{
+    background-color:rgba(4, 4, 18, 0.21);
+   
+}
+.btn4{
+    border-color:rgb(156, 156, 255);
+    color:rgb(156, 156, 255);
+}
+.btn4:hover{
+    background-color:rgba(156, 156, 255, 0.21);
+}
+.btn5{
+    border-color:rgb(255, 0, 0);
+    color:rgb(255, 0, 0);
+}
+
+.btn5:hover{
+    background-color:rgba(255, 0, 0, 0.21);
+   
+}
+.btn6{
+    border-color:purple;
+    color:purple;
+} 
+
+.btn6:hover{
+    background-color:rgba(128, 0, 128, 0.21);
+    
+} 
+.btn7{
+    border-color:rgb(0, 43, 128);
+    color:rgb(0, 43, 128);
+}
+
+.btn7:hover{
+    background-color:rgba(0, 43, 128, 0.21);
+  
+}
+.btn8{
+    border-color:rgb(0, 145, 128);
+    color:rgb(0, 145, 128);
+}
+
+.btn8:hover{
+ background-color:rgba(0, 145, 128, 0.21);
+
+}
+
+.btn9{
+    border-color:rgb(118, 185, 4);
+    color:rgb(118, 185, 4);
+}
+.btn9:hover{
+    background-color:rgba(119, 185, 4, 0.21);
+    
+}
+.btn10{
+    border-color:pink;
+    color:pink;
+}
+.btn10:hover{
+   background-color:rgba(255, 192, 203, 0.21);
+
+}
+.formation_courses{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.course a{
+   color: black;
+   font-size: 13px;
+}
+.course a h4{
+    font-size: 15px;
+}
+
+.course h5{
+    color: rgb(0, 145, 128) ;font-size: 14px;
+}
+@media screen and (max-width: 1050px) {
+
+    .our_formations_section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .qualities_section{
+        padding-left: 10px;
+        padding-right: 10px; 
+    }
+    .formation_list{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
