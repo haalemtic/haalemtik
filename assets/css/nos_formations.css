@@ -209,4 +209,8 @@ border-bottom: 1px solid grey;
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .f_list{
+        border-right: none;
+    }
 }
