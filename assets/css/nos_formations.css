@@ -158,6 +158,31 @@ border-bottom: 1px solid grey;
 .for_mobile{
     display: none;
 }
+.more_plus{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.more_plus h6{
+    text-align: center;
+    cursor: pointer;
+    color: #47b2e4;
+}
+.cont1 , .cont2{
+    height: 1px;
+    background-color: grey;
+}
+.explore_formations{
+    border: 1px solid #47b2e4;
+    font-weight: bold;
+    color: #47b2e4;
+}
+.explore_formations:hover{
+    background-color: #47b2e45a;
+}
+.accompagnement_section , .communaute_section, .graph_section, .see_formations_section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 @media screen and (max-width: 1050px) {
 .for_desktop{
     display: none;
