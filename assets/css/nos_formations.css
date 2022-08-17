@@ -155,8 +155,23 @@ border-bottom: 1px solid grey;
 .course h5{
     color: rgb(0, 145, 128) ;font-size: 14px;
 }
+.for_mobile{
+    display: none;
+}
 @media screen and (max-width: 1050px) {
+.for_desktop{
+    display: none;
 
+}
+
+.for_mobile{
+    display: block;
+   
+}
+.for_mobile span{
+    font-size: 30px;
+    padding: 10px;
+}
     .our_formations_section{
         padding-left: 10px;
         padding-right: 10px;
