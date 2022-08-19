@@ -183,6 +183,48 @@ border-bottom: 1px solid grey;
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
+
+.see_formations{
+    color: #47b2e4;
+    font-weight: bold;
+    background-color: white;
+}
+
+
+
+.help_section img{
+
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    padding-right: 1px;
+    justify-content: center;
+    color: #294750;
+    background-color: rgba(78, 214, 255, 0.3);
+}
+
+
+.help_section{
+    background-color: rgb(249, 235, 217);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.help_section button{
+    background-color:  rgb(249, 235, 217);
+    cursor: pointer;
+}
+
+
+.help_section button:hover{
+    background-color:  rgba(78, 214, 255, 0.3);
+    border-radius: 5px;
+}
 @media screen and (max-width: 1050px) {
 .for_desktop{
     display: none;
